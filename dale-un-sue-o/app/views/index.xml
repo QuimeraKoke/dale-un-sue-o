@@ -1,0 +1,10 @@
+<Alloy>
+	<Collection id="data" src="contact"/>
+	<Window class="container">
+		<View id="main">
+			<!--<TableView id="listado" dataCollection="contact">-->
+				<Button id="but">open</Button>
+			<!--</TableView>-->
+		</View>
+	</Window>
+</Alloy>

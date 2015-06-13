@@ -1,0 +1,19 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#main":{
+	layout:"vertical",
+	width:"100%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+"#listado":{
+	layout:"vertical",
+	width:"100%",
+	height:"100%",
+	backgroundColor:"red"
+}
+
+

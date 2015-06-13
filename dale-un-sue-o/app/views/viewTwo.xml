@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+			<View id="one">
+			</View>
+			<View id="two">
+			</View>
+			<View id="three">
+			</View>
+			<View id="four">
+			</View>
+			<View id="five">
+			</View>
+			<View id="six">
+				<Button id="but">Vista tres</Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

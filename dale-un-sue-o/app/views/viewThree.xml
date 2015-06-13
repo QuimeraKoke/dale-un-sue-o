@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+			<View id="one">
+			</View>
+			<View id="two">
+			</View>
+			<View id="three">
+			</View>
+			<View id="four">
+			</View>
+			<View id="five">
+			</View>
+			<View id="six">
+			</View>
+			<View id="seven">
+			</View>
+			<View id="eight">
+			</View>
+			<View id="nine">
+			</View>
+			<View id="ten">
+			</View>
+			<View id="eleven">
+			</View>
+		</View>
+	</Window>
+</Alloy>

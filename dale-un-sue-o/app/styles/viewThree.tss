@@ -1,0 +1,102 @@
+
+".container" : {
+  layout:'vertical',
+  height:'100%',
+  width:'100%',
+  backgroundColor:'blue'
+}
+
+"#main":{
+	layout:'vertical',
+	height:'100%',
+	width:'100%'
+}
+
+"#one":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'yellow'
+}
+
+
+"#two":{
+	layout:'horizontal',
+	width:'100%',
+	height:'5%',
+	backgroundColor:'blue'
+}
+
+"#three":{
+	layout:'horizontal',
+	width:'100%',
+	height:'5%',
+	backgroundColor:'yellow'
+}
+
+"#four":{
+	layout:'horizontal',
+	width:'100%',
+	height:'20%',
+	backgroundColor:'blue'
+}
+
+
+"#five":{
+	layout:'horizontal',
+	width:'100%',
+	height:'5%',
+	backgroundColor:'yellow'
+}
+
+
+"#six":{
+	layout:'horizontal',
+	width:'100%',
+	height:'5%',
+	backgroundColor:'blue'
+}
+
+"#seven":{
+	layout:'horizontal',
+	width:'100%',
+	height:'5%',
+	backgroundColor:'yellow'
+}
+
+
+"#eight":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'blue'
+}
+
+"#nine":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'yellow'
+}
+
+"#ten":{
+	layout:'horizontal',
+	width:'100%',
+	height:'5%',
+	backgroundColor:'blue'
+}
+
+
+"#eleven":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'yellow'
+}
+
+"#twelve":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'blue'
+}
