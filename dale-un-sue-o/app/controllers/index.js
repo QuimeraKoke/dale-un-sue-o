@@ -79,7 +79,7 @@ function fillScrollView(){
 
 						var viewDeseo = Ti.UI.createView({
 							layout:'vertical',
-							width:'100%',
+							width:'90%',
 							height:'60%',
 							backgroundColor:'white'
 						});
@@ -90,7 +90,7 @@ function fillScrollView(){
 							left:'0%',
 							top:'50%',
 							font:{
-								fontSize:'40px'
+								fontSize:'2em'
 							}
 						});
 
@@ -100,7 +100,7 @@ function fillScrollView(){
 							left:'0%',
 							top:'10%',
 							font:{
-								fontSize:'40px'
+								fontSize:'2em'
 							}
 						});
 

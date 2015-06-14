@@ -20,7 +20,7 @@
 "#logo":{
 	image:'/images/logodaleunsueno.png',
 	height:"70%",
-	width:"40%",
+	width:"50%",
 	top:"15%"
 }
 

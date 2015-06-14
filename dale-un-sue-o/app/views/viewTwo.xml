@@ -30,7 +30,7 @@
 				<View id="descripUno" class="descripOutside"></View>
 				<View id="descripDos">
 					<View id="contDescrip">
-						<Label id="labelDescrip">Federico tiene x años y desea ir a la nieve.</Label>
+						<Label id="labelDescrip"></Label>
 					</View>
 				</View>
 				<View id="descripTres" class="descripOutside"></View>

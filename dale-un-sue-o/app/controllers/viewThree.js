@@ -30,10 +30,10 @@ function makePhoneCall(){
 
 function sendMail() {
  
-    var emailDialog = Ti.UI.createEmailDialog()
-    emailDialog.subject = "Dale un deseo";
+    var emailDialog = Ti.UI.createEmailDialog();
+    emailDialog.subject = 'Dale! un sueño '+args.nombre+' '+args.apellido+'.';
     emailDialog.toRecipients = ['contacto@fnh.cl'];
-    emailDialog.messageBody = 'Hola! Me gustaría darle un deseo a '+args.nombre+' '+args.apellido+'.';
+    emailDialog.messageBody = '';
     //var f = Ti.Filesystem.getFile('cricket.wav');
     //emailDialog.addAttachment(f);
     emailDialog.open();
