@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
 	<id>cl.daleup.daleunsueno</id>
-	<name>daleUnSueno</name>
+	<name>Dale un sueño</name>
 	<version>1.0</version>
 	<publisher>not specified</publisher>
-	<url>approveit.biz</url>
+	<url>www.daleup.cl</url>
 	<description/>
 	<copyright>not specified</copyright>
 	<icon>appicon.png</icon>
@@ -38,6 +38,10 @@
 		</plist>
 	</ios>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
+		<manifest>
+			<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+			<application android:theme="@style/Theme.NoActionBar"/>
+		</manifest>
 	</android>
 	<mobileweb>
 		<precache>

@@ -18,6 +18,7 @@
 				</View>
 				<View id="nomFundTres" class="outside"></View>
 			</View>
+			<View id="overLogo"></View>
 			<View id="logo">
 				<View id="logoUno" class="outside"></View>
 				<View id="logoDos" class="inside">
@@ -64,8 +65,7 @@
 				</View>
 				<View id="mailTres" class="outside"></View>
 			</View>
-			<View id="twelve">
-			</View>
+			<View id="twelve"></View>
 		</View>
 	</Window>
 </Alloy>

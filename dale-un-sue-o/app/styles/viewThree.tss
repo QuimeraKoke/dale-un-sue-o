@@ -1,6 +1,6 @@
 
 ".container" : {
-  
+    orientationModes: [Titanium.UI.PORTRAIT]
 }
 
 "#main":{
@@ -26,7 +26,7 @@
 
 "#contacto":{
 	layout:'horizontal',
-	height:'5%',
+	height:'6%',
 	width:'100%',
 	backgroundColor:"purple"
 }
@@ -34,13 +34,16 @@
 
 "#labelContacto":{
 	textAlign:"center",
-	color:"#F9A10B"
+	color:"#F9A10B",
+	font:{
+		fontSize:"80px"
+	}
 }
 
 
 "#nombreFund":{
 	layout:'horizontal',
-	height:'5%',
+	height:'4%',
 	width:'100%',
 	backgroundColor:"red"
 }
@@ -50,20 +53,27 @@
 	color:"#F02B3D"
 }
 
+"#overLogo":{
+	layout:'horizontal',
+	height:'2%',
+	width:'100%',
+	backgroundColor:"white"	
+}
 
 "#logo":{
 	layout:'horizontal',
-	height:'26%',
+	height:'31%',
 	width:'100%',
-	backgroundColor:"green"
+	backgroundColor:"white"
 }
 
 "#overTitles":{
 	layout:'horizontal',
-	height:'3%',
+	height:'2%',
 	width:'100%',
-	backgroundColor:"green"
+	backgroundColor:"white"	
 }
+
 
 "#nombreDir":{
 	layout:'horizontal',
@@ -82,7 +92,7 @@
 	layout:'horizontal',
 	height:'4%',
 	width:'100%',
-	backgroundColor:"green"
+	backgroundColor:"white"
 }
 
 "#labelCargo":{
@@ -111,9 +121,9 @@
 
 "#belowTitles":{
 	layout:'horizontal',
-	height:'4%',
+	height:'3%',
 	width:'100%',
-	backgroundColor:"green"
+	backgroundColor:"white"
 }
 
 "#call":{
@@ -125,7 +135,7 @@
 
 "#ten":{
 	layout:'horizontal',
-	height:'5%',
+	height:'3%',
 	width:'100%',
 	backgroundColor:"white"
 }
@@ -139,11 +149,10 @@
 
 "#twelve":{
 	layout:'horizontal',
-	height:'10%',
+	height:'7%',
 	width:'100%',
 	backgroundColor:"white"
 }
-
 
 
 ".outside":{
@@ -157,18 +166,18 @@
 	layout:"vertical",
 	width:"60%",
 	height:"100%",
-	backgroundColor:"pink"
+	backgroundColor:"white"
 }
 
 
 "#callButton":{
-	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
+	backgroundImage:'/images/pantalla4/llamarAhora.png',
 	width:"100%",
 	height:"100%"
 }
 
 "#mailButton":{
-	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
+	backgroundImage:'/images/pantalla4/enviarMail.png',
 	width:"100%",
 	height:"100%"
 }

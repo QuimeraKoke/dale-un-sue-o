@@ -1,7 +1,9 @@
 <Alloy>
 	<Window class="container">
 		<View id="main">
-			<ImageView id="logo" image="/images/logodaleunsueno.png"/>
+			<View id="header">
+                <ImageView id="logo" image="/images/logodaleunsueno.png"/>         
+            </View>
 			<!--
 			<TableView id="listado" dataCollection="chico" dataTransform="transformData" onDragEnd="refreshTable">
             		

@@ -3,7 +3,8 @@
   layout:'vertical',
   height:'100%',
   width:'100%',
-  backgroundColor:'white'
+  backgroundColor:'white',
+  orientationModes: [Titanium.UI.PORTRAIT]
 }
 
 "#main":{
@@ -23,11 +24,11 @@
 "#foto":{
 	layout:'horizontal',
 	width:'100%',
-	height:'20%',
+	height:'17%',
 	backgroundColor:'white'
 }
 
-"#fotoUno":{
+".fotoOutside":{
 	height:"100%",
 	width:"30%"
 }
@@ -39,41 +40,37 @@
 }
 
 "#carita":{
-	width:"40%",
-	height:"80",
+	width:"50%",
+	height:"80%",
 	top:"5%"
 }
 
-"#fotoTres":{
-	height:"100%",
-	width:"30%"
-}
 
 "#nombre":{
 	layout:'horizontal',
 	width:'100%',
-	height:'10%',
+	height:'8%',
 	backgroundColor:'white'
 }
 
-"#nombreUno":{
-	width:"20%",
+".nombreOutside":{
+	width:"5%",
 	height:"100%"
 }
 
 "#nombreDos":{
 	layout:"vertical",
-	width:"60%",
-	height:"100%"
+	width:"90%",
+	height:"100%",
+	backgroundColor:"white"
 }
 
 "#name":{
-	textAlign:"center"
-}
-
-"#nombreTres":{
-	width:"20%",
-	height:"100%"
+	textAlign:"center",
+	color:"#F9A10B",
+	font:{
+		fontSize:"80px"
+	}
 }
 
 "#deseo":{
@@ -84,23 +81,27 @@
 }
 
 "#deseoUno":{
-	width:"10%",
-	height:"100%"
+	layout:"vertical",
+	width:"40%",
+	height:"100%",
+	backgroundColor:"white"
 }
 
 "#deseoDos":{
 	layout:"vertical",
-	width:"80%",
-	height:"100%"
+	width:"60%",
+	height:"100%",
+	backgroundColor:"white"
 }
 
-"#labelDeseo":{
-	textAlign:"center"
+"#labelDeseoUno":{
+	right:"0%",
+	color:"#61839B"
 }
 
-"#deseoTres":{
-	width:"10%",
-	height:"100%"
+"#labelDeseoDos":{
+	left:"3%",
+	color:"#94CCF1"
 }
 
 
@@ -111,7 +112,7 @@
 	backgroundColor:'white'
 }
 
-"#descripUno":{
+".descripOutside":{
 	width:"10%",
 	height:"100%"
 }
@@ -122,24 +123,29 @@
 	height:"100%"
 }
 
-"#descripTres":{
-	width:"10%",
-	height:"100%"
-}
 
 "#contDescrip":{
 	layout:"vertical",
 	width:"90%",
 	height:"100%",
 	borderColor: "#F9A10B",
-	borderWidth:"2"
+	borderWidth:"2",
+	borderRadius:10
+}
+
+"#labelDescrip":{
+	left:"8%",
+	right:"8%",
+	top:"8%",
+	color:"black",
+	textAlign:"justify"
 }
 
 
 "#six":{
 	layout:'horizontal',
 	width:'100%',
-	height:'20%',
+	height:'25%',
 	backgroundColor:'white'
 }
 
@@ -168,6 +174,6 @@
 
 "#buttonDale":{
 	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
-	width:"100%",
-	height:"70%"
+	width:"80%",
+	height:"40%"
 }
