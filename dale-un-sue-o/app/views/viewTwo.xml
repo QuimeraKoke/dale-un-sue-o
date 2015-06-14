@@ -1,18 +1,45 @@
 <Alloy>
 	<Window class="container">
 		<View id="main">
-			<View id="one">
+			<View id="navBar">
+				<Button id="backButton"/>
 			</View>
-			<View id="two">
+			<View id="foto">
+				<View id="fotoUno"></View>
+				<View id="fotoDos">
+					<ImageView id="carita" image="/images/caritas/cara1.png"/>
+				</View>
+				<View id="fotoTres"></View>
 			</View>
-			<View id="three">
+			<View id="nombre">
+				<View id="nombreUno"></View>
+				<View id="nombreDos">
+					<Label id="name">Federico Hernández</Label>
+				</View>
+				<View id="nombreTres"></View>
 			</View>
-			<View id="four">
+			<View id="deseo">
+				<View id="deseoUno"></View>
+				<View id="deseoDos">
+					<Label id="labelDeseo">Su sueño es: Un fin de semana en la nieve</Label>
+				</View>
+				<View id="deseoTres"></View>
 			</View>
-			<View id="five">
+			<View id="descripcion">
+				<View id="descripUno"></View>
+				<View id="descripDos">
+					<View id="contDescrip">
+						<Label id="labelDescrip">Federico tiene x años y desea ir a la nieve.</Label>
+					</View>
+				</View>
+				<View id="descripTres"></View>
 			</View>
 			<View id="six">
-				<Button id="but">Vista tres</Button>
+				<View id="sixOne"></View>
+				<View id="sixTwo">
+					<Button id="buttonDale"/>
+				</View>
+				<View id="sixThree"></View>
 			</View>
 		</View>
 	</Window>

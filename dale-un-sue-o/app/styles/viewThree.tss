@@ -1,9 +1,6 @@
 
 ".container" : {
-  layout:'vertical',
-  height:'100%',
-  width:'100%',
-  backgroundColor:'blue'
+  
 }
 
 "#main":{
@@ -12,91 +9,166 @@
 	width:'100%'
 }
 
-"#one":{
+"#navBar":{
 	layout:'horizontal',
 	width:'100%',
 	height:'10%',
-	backgroundColor:'yellow'
+	backgroundColor:'white'
 }
 
+"#backButton":{
+	backgroundImage:'/images/pantalla3/flecha.png',
+	height:"80%",
+	width:"12%",
+	top:"10%",
+	left:"5%"
+}
 
-"#two":{
+"#contacto":{
 	layout:'horizontal',
-	width:'100%',
 	height:'5%',
-	backgroundColor:'blue'
+	width:'100%',
+	backgroundColor:"purple"
 }
 
-"#three":{
+
+"#labelContacto":{
+	textAlign:"center",
+	color:"#F9A10B"
+}
+
+
+"#nombreFund":{
 	layout:'horizontal',
-	width:'100%',
 	height:'5%',
-	backgroundColor:'yellow'
+	width:'100%',
+	backgroundColor:"red"
 }
 
-"#four":{
-	layout:'horizontal',
-	width:'100%',
-	height:'20%',
-	backgroundColor:'blue'
-}
-
-
-"#five":{
-	layout:'horizontal',
-	width:'100%',
-	height:'5%',
-	backgroundColor:'yellow'
+"#labelNomFund":{
+	textAlign:"center",
+	color:"#F02B3D"
 }
 
 
-"#six":{
+"#logo":{
 	layout:'horizontal',
+	height:'26%',
 	width:'100%',
-	height:'5%',
-	backgroundColor:'blue'
+	backgroundColor:"green"
 }
 
-"#seven":{
+"#overTitles":{
 	layout:'horizontal',
+	height:'3%',
 	width:'100%',
-	height:'5%',
-	backgroundColor:'yellow'
+	backgroundColor:"green"
+}
+
+"#nombreDir":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#labelNomDir":{
+	textAlign:"center",
+	color:"black"
 }
 
 
-"#eight":{
+"#cargo":{
 	layout:'horizontal',
+	height:'4%',
 	width:'100%',
+	backgroundColor:"green"
+}
+
+"#labelCargo":{
+	textAlign:"center",
+	color:"black"
+}
+
+
+"#fund":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#labelFund":{
+	textAlign:"center",
+	color:"black"
+}
+
+
+".fundInfo":{
+	textAlign:"center",
+	color:"black"
+}
+
+"#belowTitles":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"green"
+}
+
+"#call":{
+	layout:'horizontal',
 	height:'10%',
-	backgroundColor:'blue'
-}
-
-"#nine":{
-	layout:'horizontal',
 	width:'100%',
-	height:'10%',
-	backgroundColor:'yellow'
+	backgroundColor:"red"
 }
 
 "#ten":{
 	layout:'horizontal',
-	width:'100%',
 	height:'5%',
-	backgroundColor:'blue'
+	width:'100%',
+	backgroundColor:"white"
 }
 
-
-"#eleven":{
+"#mail":{
 	layout:'horizontal',
-	width:'100%',
 	height:'10%',
-	backgroundColor:'yellow'
+	width:'100%',
+	backgroundColor:"red"
 }
 
 "#twelve":{
 	layout:'horizontal',
-	width:'100%',
 	height:'10%',
-	backgroundColor:'blue'
+	width:'100%',
+	backgroundColor:"white"
+}
+
+
+
+".outside":{
+	width:"20%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+
+".inside":{
+	layout:"vertical",
+	width:"60%",
+	height:"100%",
+	backgroundColor:"pink"
+}
+
+
+"#callButton":{
+	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
+	width:"100%",
+	height:"100%"
+}
+
+"#mailButton":{
+	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
+	width:"100%",
+	height:"100%"
 }

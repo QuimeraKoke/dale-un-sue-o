@@ -2,21 +2,21 @@ exports.definition = {
 	config: {
 		//URL: "http://192.168.0.2/person",
 		columns: {
-		    "firstname": "text",
-		    "lastname": "text",
-		    "phone": "text"
+		    "nombre": "text",
+		    "apellido": "text",
+		    "descripcion": "text",
 		},
 		adapter: {
 			type: "restapi",
-			name: "contact",
-			collection_name: "contact"
+			name: "chico",
+			collection_name: "chico"
 		}
 	},
 	extendModel: function(Model) {
 		_.extend(Model.prototype, {
 			// extended functions and properties go here
 			url:function(){
-				return 'http://192.168.0.2:1337/person/'+this.get('id');
+				return 'http://5.10.84.76:19952/deseo/'+this.get('id');
 			},
 			validate:function (attrs) {
 				for (var key in attrs) {
@@ -43,7 +43,7 @@ exports.definition = {
         			}	
     			}
             },
-            customProperty: 'contact'
+            customProperty: 'chico'
 		});
 
 		return Model;
@@ -52,7 +52,7 @@ exports.definition = {
 		_.extend(Collection.prototype, {
 			// extended functions and properties go here
 			url:function(){
-				return 'http://192.168.0.2:1337/person';
+				return 'http://5.10.84.76:19952/deseo';
 			}
 		});
 

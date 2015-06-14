@@ -3,7 +3,7 @@
   layout:'vertical',
   height:'100%',
   width:'100%',
-  backgroundColor:'blue'
+  backgroundColor:'white'
 }
 
 "#main":{
@@ -12,41 +12,127 @@
 	width:'100%'
 }
 
-"#one":{
+"#navBar":{
 	layout:'horizontal',
 	width:'100%',
 	height:'10%',
-	backgroundColor:'green'
+	backgroundColor:'white'
 }
 
 
-"#two":{
+"#foto":{
 	layout:'horizontal',
 	width:'100%',
 	height:'20%',
-	backgroundColor:'red'
+	backgroundColor:'white'
 }
 
-"#three":{
+"#fotoUno":{
+	height:"100%",
+	width:"30%"
+}
+
+"#fotoDos":{
+	layout:"vertical",
+	height:"100%",
+	width:"40%"
+}
+
+"#carita":{
+	width:"40%",
+	height:"80",
+	top:"5%"
+}
+
+"#fotoTres":{
+	height:"100%",
+	width:"30%"
+}
+
+"#nombre":{
 	layout:'horizontal',
 	width:'100%',
 	height:'10%',
-	backgroundColor:'green'
+	backgroundColor:'white'
 }
 
-"#four":{
+"#nombreUno":{
+	width:"20%",
+	height:"100%"
+}
+
+"#nombreDos":{
+	layout:"vertical",
+	width:"60%",
+	height:"100%"
+}
+
+"#name":{
+	textAlign:"center"
+}
+
+"#nombreTres":{
+	width:"20%",
+	height:"100%"
+}
+
+"#deseo":{
 	layout:'horizontal',
 	width:'100%',
 	height:'10%',
-	backgroundColor:'red'
+	backgroundColor:'white'
+}
+
+"#deseoUno":{
+	width:"10%",
+	height:"100%"
+}
+
+"#deseoDos":{
+	layout:"vertical",
+	width:"80%",
+	height:"100%"
+}
+
+"#labelDeseo":{
+	textAlign:"center"
+}
+
+"#deseoTres":{
+	width:"10%",
+	height:"100%"
 }
 
 
-"#five":{
+"#descripcion":{
 	layout:'horizontal',
 	width:'100%',
 	height:'30%',
-	backgroundColor:'green'
+	backgroundColor:'white'
+}
+
+"#descripUno":{
+	width:"10%",
+	height:"100%"
+}
+
+"#descripDos":{
+	layout:"vertical",
+	width:"80%",
+	height:"100%"
+}
+
+"#descripTres":{
+	width:"10%",
+	height:"100%"
+}
+
+"#contDescrip":{
+	layout:"vertical",
+	width:"90%",
+	height:"100%",
+	borderColor: "#F9A10B",
+	borderWidth:"2"
 }
 
 
@@ -54,5 +140,34 @@
 	layout:'horizontal',
 	width:'100%',
 	height:'20%',
-	backgroundColor:'red'
+	backgroundColor:'white'
+}
+
+"#sixOne":{
+	width:"20%",
+	height:"100%"
+}
+
+"#sixTwo":{
+	width:"60%",
+	height:"100%"
+}
+
+"#sixThree":{
+	width:"20%",
+	height:"100%"
+}
+
+"#backButton":{
+	backgroundImage:'/images/pantalla3/flecha.png',
+	height:"80%",
+	width:"12%",
+	top:"10%",
+	left:"5%"
+}
+
+"#buttonDale":{
+	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
+	width:"100%",
+	height:"70%"
 }

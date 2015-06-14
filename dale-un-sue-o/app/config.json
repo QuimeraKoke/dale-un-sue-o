@@ -1,5 +1,10 @@
 {
-	"global": {}, 
+	"global": {
+		"colors":{
+			"one":"red",
+			"two":"blue"
+		}
+	}, 
 	"env:development": {}, 
 	"env:test": {}, 
 	"env:production": {}, 
