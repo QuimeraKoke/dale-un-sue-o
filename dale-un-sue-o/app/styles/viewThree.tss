@@ -1,0 +1,183 @@
+
+".container" : {
+    orientationModes: [Titanium.UI.PORTRAIT]
+}
+
+"#main":{
+	layout:'vertical',
+	height:'100%',
+	width:'100%'
+}
+
+"#navBar":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'white'
+}
+
+"#backButton":{
+	backgroundImage:'/images/pantalla3/flecha.png',
+	height:"80%",
+	width:"12%",
+	top:"10%",
+	left:"5%"
+}
+
+"#contacto":{
+	layout:'horizontal',
+	height:'6%',
+	width:'100%',
+	backgroundColor:"purple"
+}
+
+
+"#labelContacto":{
+	textAlign:"center",
+	color:"#F9A10B",
+	font:{
+		fontSize:"5em"
+	}
+}
+
+
+"#nombreFund":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#labelNomFund":{
+	textAlign:"center",
+	color:"#F02B3D"
+}
+
+"#overLogo":{
+	layout:'horizontal',
+	height:'2%',
+	width:'100%',
+	backgroundColor:"white"	
+}
+
+"#logo":{
+	layout:'horizontal',
+	height:'31%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#overTitles":{
+	layout:'horizontal',
+	height:'2%',
+	width:'100%',
+	backgroundColor:"white"	
+}
+
+
+"#nombreDir":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#labelNomDir":{
+	textAlign:"center",
+	color:"black"
+}
+
+
+"#cargo":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#labelCargo":{
+	textAlign:"center",
+	color:"black"
+}
+
+
+"#fund":{
+	layout:'horizontal',
+	height:'4%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#labelFund":{
+	textAlign:"center",
+	color:"black"
+}
+
+
+".fundInfo":{
+	textAlign:"center",
+	color:"black"
+}
+
+"#belowTitles":{
+	layout:'horizontal',
+	height:'3%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#call":{
+	layout:'horizontal',
+	height:'10%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#ten":{
+	layout:'horizontal',
+	height:'3%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#mail":{
+	layout:'horizontal',
+	height:'10%',
+	width:'100%',
+	backgroundColor:"red"
+}
+
+"#twelve":{
+	layout:'horizontal',
+	height:'7%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+
+".outside":{
+	width:"20%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+
+".inside":{
+	layout:"vertical",
+	width:"60%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+
+"#callButton":{
+	backgroundImage:'/images/pantalla4/llamarAhora.png',
+	width:"100%",
+	height:"100%"
+}
+
+"#mailButton":{
+	backgroundImage:'/images/pantalla4/enviarMail.png',
+	width:"100%",
+	height:"100%"
+}

@@ -1,0 +1,71 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+			<View id="navBar">
+				<Button id="backButton"/>
+			</View>
+			<View id="contacto">
+				<View id="contactoUno" class="outside"></View>
+				<View id="contactoDos" class="inside">
+					<Label id="labelContacto">CONTACTO</Label>
+				</View>
+				<View id="contactoTres" class="outside"></View>
+			</View>
+			<View id="nombreFund">
+				<View id="nomFundUno" class="outside"></View>
+				<View id="nomFundDos" class="inside">
+					<Label id="labelNomFund">FUNDACION NUESTROS HIJOS</Label>
+				</View>
+				<View id="nomFundTres" class="outside"></View>
+			</View>
+			<View id="overLogo"></View>
+			<View id="logo">
+				<View id="logoUno" class="outside"></View>
+				<View id="logoDos" class="inside">
+					<ImageView image="/images/pantalla4/LogoFNHfondoblanco.png"></ImageView>
+				</View>
+				<View id="logoTres" class="outside"></View>
+			</View>
+			<View id="overTitles"></View>
+			<View id="nombreDir">
+				<View id="nomDirUno" class="outside"></View>
+				<View id="nomDirDos" class="inside">
+					<Label id="labelNomDir">Raúl Arrázola Castro</Label>
+				</View>
+				<View id="nomDirTres" class="outside"></View>
+			</View>
+			<View id="cargo">
+				<View id="cargoUno" class="outside"></View>
+				<View id="cargoDos" class="inside">
+					<Label id="labelCargo">Gerente General</Label>
+				</View>
+				<View id="cargoTres" class="outside"></View>
+			</View>
+			<View id="fund">
+				<View id="fundUno" class="outside"></View>
+				<View id="fundDos" class="inside">
+					<Label id="labelFund">Fundación Nuestros Hijos</Label>
+				</View>
+				<View id="fundTres" class="outside"></View>
+			</View>
+			<View id="belowTitles"></View>
+			<View id="call">
+				<View id="callUno" class="outside"></View>
+				<View id="callDos" class="inside">
+					<Button id="callButton"></Button>
+				</View>
+				<View id="callTres" class="outside"></View>
+			</View>
+			<View id="ten">
+			</View>
+			<View id="mail">
+				<View id="mailUno" class="outside"></View>
+				<View id="mailDos" class="inside">
+					<Button id="mailButton"></Button>
+				</View>
+				<View id="mailTres" class="outside"></View>
+			</View>
+			<View id="twelve"></View>
+		</View>
+	</Window>
+</Alloy>
